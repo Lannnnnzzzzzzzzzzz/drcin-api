@@ -37,6 +37,7 @@ app.get('/', (req, res) => {
     res.json({
         message: 'DramaBox API Server',
         version: '1.0.0',
+        author: 'lannzephry',
         endpoints: {
             drama: {
                 list: 'GET /api/drama/list',
@@ -294,6 +295,7 @@ app.listen(PORT, () => {
     console.log(`
 ╔═══════════════════════════════════════╗
 ║       DramaBox API Server             ║
+║          by lannzephry                ║
 ╠═══════════════════════════════════════╣
 ║  🚀 Server running on port ${PORT}      ║
 ║  📍 URL: http://localhost:${PORT}        ║

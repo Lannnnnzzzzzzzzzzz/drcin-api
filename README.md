@@ -2,9 +2,15 @@
 
 RESTful API server untuk mengakses konten drama dari DramaBox.
 
+**Created by lannzephry**
+
 ## 🚀 Quick Start
 
-### Installation
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/YOUR_REPO)
+
+### Local Development
 
 ```bash
 # Install dependencies
@@ -274,9 +280,29 @@ http POST localhost:3000/api/chapter/batch-download \
   bookId=123 chapterIdList:='[1,2,3]'
 ```
 
+## 🚀 Deployment
+
+### Deploy to Vercel
+
+1. Push your code to GitHub
+2. Import your repository to Vercel
+3. Vercel will automatically detect the configuration
+4. Deploy!
+
+Or use Vercel CLI:
+
+```bash
+npm i -g vercel
+vercel
+```
+
 ## 📄 License
 
 ISC
+
+## 👤 Author
+
+**lannzephry**
 
 ## 👨‍💻 Development
 
