@@ -1,0 +1,26 @@
+name = 'dracin-api'
+main = "src/worker.js"
+compatibility_date = "2025-01-10"
+
+# Use nodejs_compat for better Node.js API support
+compatibility_flags = ["nodejs_compat"]
+
+# Development environment
+[env.development]
+workers_dev = true
+
+# Production environment
+[env.production]
+workers_dev = false
+# Uncomment and configure when you have a custom domain
+# routes = [
+#   { pattern = "api.yourdomain.com/*", zone_id = "YOUR_ZONE_ID" }
+# ]
+
+# Build configuration
+[build]
+command = ""
+
+# Limits (optional - these are defaults)
+#[limits]
+#cpu_ms = 50
